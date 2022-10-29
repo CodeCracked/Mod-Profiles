@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "mod_profiles",
+  "version": "${version}",
+  "name": "Fabric Mod Profiles",
+  "description": "Allows you to easily switch between sets of mods, and assign a set of mods to each world.",
+  "authors": ["CodeCracked"],
+  "contact": {
+    "homepage": "https://github.com/CodeCracked/ModProfiles",
+    "issues": "https://github.com/CodeCracked/ModProfiles/issues",
+    "sources": "https://github.com/CodeCracked/ModProfiles"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/mod_profiles/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "mod_profiles.ModProfilesMod"
+    ]
+  },
+  "mixins": [
+    "mod_profiles.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": ">=${fabric_version}",
+    "minecraft": "${target_minecraft_versions}"
+  },
+  "custom": {
+    "updatesFile": "https://raw.githubusercontent.com/CodeCracked/ModProfiles/master/updates.ini"
+  }
+}

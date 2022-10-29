@@ -1,0 +1,7 @@
+{
+  "version_check.outdated": "You are using an outdated version of %s!",
+  "version_check.currentVersion": "You are using %s, the current version is %s",
+  "version_check.releasesLink": "To download the update, click",
+  "version_check.releasesLink.hyperlink": "here",
+  "version_check.changelog": "Changes:"
+}
