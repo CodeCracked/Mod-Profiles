@@ -15,6 +15,10 @@ public class LaunchCommand
     private String classpath;
     private String entryPoint;
     
+    public LaunchCommand(String... args)
+    {
+        this(List.of(args));
+    }
     public LaunchCommand(Collection<String> args)
     {
         flags = new ArrayList<>();

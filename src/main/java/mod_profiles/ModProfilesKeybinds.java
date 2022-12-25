@@ -22,8 +22,7 @@ public class ModProfilesKeybinds
     {
         while (TEST_KEY.wasPressed())
         {
-            Relauncher.relaunch();
-            //Relauncher.relaunch(Screen.hasControlDown());
+            Relauncher.relaunch(ModProfilesMod.PROFILES_DIRECTORY.resolve("no_mods.dat"));
         }
     }
 }

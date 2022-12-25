@@ -22,6 +22,7 @@ public final class Logging
     public static void logArguments(Collection<String> args)
     {
         StringBuilder builder = new StringBuilder();
+        
         boolean nextRedacted = false;
         for (String arg : args)
         {
